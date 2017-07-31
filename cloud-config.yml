@@ -1,0 +1,15 @@
+#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkWauuHubrC7nw0JV3V/XHXMNJHjwKyGJZRhca+ZEctgB76AIDD2pVmMW7UA3MMMyDK7g3/xwuyTxDKy8bi01NCofuCEyR/a+YUdDfBQj9FJE9LbLJbP2k3tk1FfnTLbExJEUNSV11HlM6CRzGxiHLwLlQXXGLluSG5DazxuMalg7RxMGTUd9/geTgsedY5Ko031NKzQALStyEmj0LUrhOFHs0MMSnGnDHRimbwPiqiQ+OKgvgtw9Nsanqbx/y6xyS6tQ4sKcVsv4KQuWQKL/xPOnpoawtVCMY3/dxyNriA1R4vGgmquw6YD10Gjcg2OO1E9Wfv0oMm+DBu0aVCllCw== plucia@linklpt-plucia
+
+rancher:
+  network:
+    interfaces:
+#inserisci il mac address della scheda da configurare in modo che risulti "mac=11:22:33:44:55:66"
+#      "mac=":
+#di default abilitato DHCP, altrimenti modificare i parametri address e gateway per impostare un IP statico
+        dhcp: true
+#        address: 172.68.1.100/24
+#        gateway: 172.68.1.1
+#    dns:
+#      nameservers:
