@@ -11,7 +11,7 @@ $ sudo -i
 # chmod +x clone_blackrancher.sh
 
 - Esegui git_clone_blackrancher.sh per clonare il progetto "blackrancher"
-# ./git_clone_blackrancher.sh
+# ./clone_blackrancher.sh
 
 - entra nella cartella del progetto ed edita il file cloud-config.yml e modificarlo come opportuno
 # cd blackrancher
