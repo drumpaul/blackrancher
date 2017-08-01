@@ -13,3 +13,5 @@ rancher:
 #        gateway: 172.68.1.1
 #    dns:
 #      nameservers:
+#      - 1.2.3.4
+#      - 5.6.7.8

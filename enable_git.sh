@@ -1,5 +1,8 @@
 #!/bin/bash
 
+start_git()
+{
 alias git="docker run -ti --rm -v $(pwd):/git bwits/docker-git-alpine"
+}
 
-git clone https://github.com/drumpaul/blackrancher.git
+export -f start_git
