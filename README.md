@@ -22,3 +22,6 @@ $ sudo -i
 
 - individuare il disco su cui installare il sistema operativo RancherOS
 # fdisk -l
+
+- infine lanciare il comando di installazione (ad es. device /dev/sda)
+# ros install -c cloud-config.yml -d /dev/sda
