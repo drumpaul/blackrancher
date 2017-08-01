@@ -7,8 +7,8 @@ INSTALLAZIONE RANCHEROS MACHINE
 $ sudo -i
 
 - Scarica e fornisci i permessi di esecuzione allo script per abilitare l'uso del comando "git"
-# wget https://raw.githubusercontent.com/drumpaul/blackrancher/master/git_clone_blackrancher.sh -O git_clone_blackrancher.sh
-# chmod +x git_clone_blackrancher.sh
+# wget https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh -O clone_blackrancher.sh
+# chmod +x clone_blackrancher.sh
 
 - Esegui git_clone_blackrancher.sh per clonare il progetto "blackrancher"
 # ./git_clone_blackrancher.sh
