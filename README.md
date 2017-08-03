@@ -7,7 +7,7 @@ INSTALLAZIONE RANCHEROS MACHINE
 $ sudo -i
 
 - Scarica e fornisci i permessi di esecuzione allo script per clonare tutti gli script necessari all'installazione
-# wget https://goo.gl/D2r1QG 
+# wget https://goo.gl/D2r1QG -O clone_blackrancher.sh
 (https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh)
 # chmod +x clone_blackrancher.sh
 
@@ -25,4 +25,4 @@ $ sudo -i
 # fdisk -l
 
 - infine lanciare il comando di installazione (ad es. device /dev/sda)
-# ros install -c cloud-config.yml -d /dev/sda
+# ros install -f -c cloud-config.yml -d /dev/sda
