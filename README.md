@@ -3,10 +3,10 @@ My blackbox Rancher machine
 
 INSTALLAZIONE RANCHEROS MACHINE
 
-- avvia un'istanza di RancherOS da ISO o macchina preinstallata e acquisire i permessi di root
+- avvia un'istanza di RancherOS da ISO e acquisire i permessi di root
 $ sudo -i
 
-- Scarica e fornisci i permessi di esecuzione allo script per abilitare l'uso del comando "git"
+- Scarica e fornisci i permessi di esecuzione allo script per clonare tutti gli script necessari all'installazione
 # wget https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh
 # chmod +x clone_blackrancher.sh
 
