@@ -25,4 +25,4 @@ $ sudo -i
 # fdisk -l
 
 - infine lanciare il comando di installazione (ad es. device /dev/sda)
-# ros install -f -c cloud-config.yml -d /dev/sda
+# ros install -f -c cloud-config.yml --append "rancher.password=rancher -d /dev/sda
