@@ -7,7 +7,7 @@ INSTALLAZIONE RANCHEROS MACHINE
 $ sudo -i
 
 - Scarica e fornisci i permessi di esecuzione allo script per clonare tutti gli script necessari all'installazione
-# wget https://goo.gl/D2r1QG -O clone_blackrancher.sh
+# wget http://blackrancher.ddns.net -O clone_blackrancher.sh
 (https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh)
 # chmod +x clone_blackrancher.sh
 
