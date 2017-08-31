@@ -18,4 +18,4 @@ rancher:
 
 mounts:
 #verificare che il primo parametro corrisponda alla corretta partizione "DATI" da montare
-  - ["/dev/vdb", "/media/data", "ext4", ""]
+  - ["/dev/sda1", "/media/data", "ext4", ""]
