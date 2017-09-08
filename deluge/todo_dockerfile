@@ -1,0 +1,3 @@
+file start.sh con #!/bin/bash
+CMD ["/start.sh"] (in dockerfile)
+comando run shell senza entrypoint/cmd finale
