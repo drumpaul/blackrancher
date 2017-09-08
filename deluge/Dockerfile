@@ -10,4 +10,4 @@ RUN echo "pippo:ciao:10" >> ~/.config/deluge/auth
 
 WORKDIR /
 
-ENTRYPOINT ["/start.sh"] 
+CMD ["/start.sh"]
