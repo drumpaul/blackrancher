@@ -17,7 +17,7 @@ $ sudo -i
 
 - entra nella cartella del progetto ed edita il file cloud-config.yml e modificarlo come opportuno
 # cd blackrancher
-# vi cloud-config.yml
+# sudo vi cloud-config.yml
 
 - recuperare il macaddress della scheda di rete della macchina host e aggiornare il file cloud-config.yml
 
@@ -28,4 +28,5 @@ $ sudo -i
 # fdisk -l
 
 - infine lanciare il comando di installazione (ad es. device /dev/sda)
-# ros install -f -c cloud-config.yml --append "rancher.password=rancher" -d /dev/sda
+# sudo 
+ros install -f -c cloud-config.yml --append "rancher.password=rancher" -d /dev/sda
