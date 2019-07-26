@@ -22,11 +22,10 @@ $ sudo -i
 - recuperare il macaddress della scheda di rete della macchina host e aggiornare il file cloud-config.yml
 
 - dopo aver terminato le modifiche al file cloud-config.yml verificarne la coerenza
-#ros config validate < cloud-config.yml
+# sudo ros config validate < cloud-config.yml
 
 - individuare il disco su cui installare il sistema operativo RancherOS
 # fdisk -l
 
 - infine lanciare il comando di installazione (ad es. device /dev/sda)
-# sudo 
-ros install -f -c cloud-config.yml --append "rancher.password=rancher" -d /dev/sda
+# sudo ros install -f -c cloud-config.yml --append "rancher.password=rancher" -d /dev/sda
