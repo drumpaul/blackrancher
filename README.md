@@ -1,5 +1,6 @@
 # blackrancher
 My blackbox Rancher machine
+(requisiti almeno 2GB RAM)
 
 INSTALLAZIONE RANCHEROS MACHINE
 
@@ -7,16 +8,18 @@ INSTALLAZIONE RANCHEROS MACHINE
 $ sudo -i
 
 - Scarica e fornisci i permessi di esecuzione allo script per clonare tutti gli script necessari all'installazione
-# wget https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh -O clone.sh
-(https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone_blackrancher.sh)
+# wget https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone.sh -O clone.sh
+(https://raw.githubusercontent.com/drumpaul/blackrancher/master/clone.sh)
 # chmod +x clone.sh
 
 - Esegui git_clone_blackrancher.sh per clonare il progetto "blackrancher"
-# ./clone_blackrancher.sh
+# ./clone.sh
 
 - entra nella cartella del progetto ed edita il file cloud-config.yml e modificarlo come opportuno
 # cd blackrancher
 # vi cloud-config.yml
+
+- recuperare il macaddress della scheda di rete della macchina host e aggiornare il file cloud-config.yml
 
 - dopo aver terminato le modifiche al file cloud-config.yml verificarne la coerenza
 #ros config validate < cloud-config.yml
