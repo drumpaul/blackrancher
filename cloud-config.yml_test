@@ -6,7 +6,28 @@ rancher:
   console: ubuntu
   network:
     interfaces:
+      #INTERFACCIA LAN
       "mac=C8:60:00:2A:40:B6":
+        #address: 192.168.1.46/24
+        #gateway: 192.168.1.254
+        
+      #INTERFACCIA WLAN
+      "mac=12:34:56:78:90:AB":
+        wifi_network: wlan1 
+      
+      br0:
+        bridge: true
+        dhcp: true
+       "mac=C8:60:00:2A:40:B6":
+         bridge: br0
+       "mac=12:34:56:78:90:AB":
+         bridge: br0
+        
+    wifi_networks:
+      wlan1:
+        ssid: "blackwifinet2.4"
+        psk: "12345678qwertyui"
+        scan_ssid: 1
         address: 192.168.1.46/24
         gateway: 192.168.1.254
     dns:
